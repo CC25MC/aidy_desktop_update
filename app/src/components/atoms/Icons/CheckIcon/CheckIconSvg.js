@@ -1,0 +1,156 @@
+export const CheckIconSvg = ({ title, titleId, ...props }) => (
+	<svg
+		width={16}
+		height={16}
+		viewBox="0 0 31 30"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+		focusable="false"
+		aria-labelledby={titleId}
+		{...props}
+	>
+		{title ? <title id={titleId}>{title}</title> : null}
+		<g clipPath="url(#clip0)">
+			<path
+				d="M23.819 17.4258L29.1596 15.6543C29.2964 15.6031 29.4216 15.5255 29.5282 15.4259C29.6348 15.3263 29.7206 15.2066 29.7807 15.0739C29.8408 14.9411 29.8741 14.7978 29.8785 14.6522C29.883 14.5066 29.8585 14.3615 29.8066 14.2254L25.7862 3.16286C25.7348 3.02647 25.657 2.90153 25.5572 2.79522C25.4573 2.68891 25.3374 2.60332 25.2043 2.54336C25.0712 2.4834 24.9275 2.45025 24.7815 2.44582C24.6355 2.44139 24.4901 2.46577 24.3536 2.51755L5.59146 9.29333C5.45472 9.34452 5.32946 9.42214 5.22288 9.52174C5.11629 9.62134 5.03048 9.74095 4.97037 9.87372C4.91025 10.0065 4.87702 10.1498 4.87258 10.2954C4.86814 10.441 4.89258 10.5861 4.94449 10.7222L5.86873 13.1652L5.22288 11.4581"
+				stroke="currentColor"
+				strokeWidth={1.53431}
+				strokeMiterlimit={10}
+				strokeLinecap="round"
+				strokeLinejoin="round"
+			/>
+			<path
+				d="M22.7094 13.5078H2.74581C2.13328 13.5078 1.63672 14.0031 1.63672 14.6141V26.2297C1.63672 26.8407 2.13328 27.3359 2.74581 27.3359H22.7094C23.322 27.3359 23.8185 26.8407 23.8185 26.2297V14.6141C23.8185 14.0031 23.322 13.5078 22.7094 13.5078Z"
+				stroke="currentColor"
+				strokeWidth={1.53431}
+				strokeMiterlimit={10}
+				strokeLinecap="round"
+				strokeLinejoin="round"
+			/>
+			<rect
+				x={11.3408}
+				y={15.3516}
+				width={2.77273}
+				height={0.921876}
+				rx={0.460938}
+				fill="currentColor"
+			/>
+			<rect
+				x={3.94727}
+				y={18.5781}
+				width={17.5606}
+				height={0.921875}
+				rx={0.460938}
+				fill="currentColor"
+			/>
+			<rect
+				x={3.94727}
+				y={23.6486}
+				width={0.924242}
+				height={1.84375}
+				rx={0.462121}
+				fill="currentColor"
+			/>
+			<rect
+				x={5.7959}
+				y={23.6486}
+				width={0.462121}
+				height={1.84375}
+				rx={0.231061}
+				fill="currentColor"
+			/>
+			<rect
+				x={7.18262}
+				y={23.6486}
+				width={0.462121}
+				height={1.84375}
+				rx={0.231061}
+				fill="currentColor"
+			/>
+			<rect
+				x={3.94727}
+				y={20.8828}
+				width={17.5606}
+				height={0.460938}
+				rx={0.230469}
+				fill="currentColor"
+			/>
+			<rect
+				x={14.5762}
+				y={25.0312}
+				width={6.93182}
+				height={0.460937}
+				rx={0.230468}
+				fill="currentColor"
+			/>
+			<rect
+				x={15.0381}
+				y={15.3516}
+				width={2.77273}
+				height={0.921876}
+				rx={0.460938}
+				fill="currentColor"
+			/>
+			<rect
+				x={18.7354}
+				y={15.3516}
+				width={2.77273}
+				height={0.921876}
+				rx={0.460938}
+				fill="currentColor"
+			/>
+			<rect
+				width={2.77192}
+				height={0.922146}
+				rx={0.461073}
+				transform="matrix(0.941367 -0.337383 0.338919 0.940815 14.6035 8.17908)"
+				fill="currentColor"
+			/>
+			<rect
+				width={15.311}
+				height={0.425066}
+				rx={0.212533}
+				transform="matrix(0.941367 -0.337383 0.338919 0.940815 10.8516 12.9521)"
+				fill="currentColor"
+			/>
+			<rect
+				width={10.1414}
+				height={0.461073}
+				rx={0.230537}
+				transform="matrix(0.941367 -0.337383 0.33892 0.940815 16.5 13.3771)"
+				fill="currentColor"
+			/>
+			<rect
+				width={4.09959}
+				height={0.461073}
+				rx={0.230536}
+				transform="matrix(0.941367 -0.337383 0.33892 0.940815 23.5938 15.2427)"
+				fill="currentColor"
+			/>
+			<rect
+				width={2.77192}
+				height={0.922146}
+				rx={0.461073}
+				transform="matrix(0.941367 -0.337383 0.33892 0.940815 18.083 6.93213)"
+				fill="currentColor"
+			/>
+			<rect
+				width={2.77192}
+				height={0.922146}
+				rx={0.461073}
+				transform="matrix(0.941367 -0.337383 0.338919 0.940815 21.5615 5.6853)"
+				fill="currentColor"
+			/>
+		</g>
+		<defs>
+			<clipPath id="clip0">
+				<rect
+					width={29.5758}
+					height={29.5}
+					fill="white"
+					transform="translate(0.712891 0.140625)"
+				/>
+			</clipPath>
+		</defs>
+	</svg>
+);
